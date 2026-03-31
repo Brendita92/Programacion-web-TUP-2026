@@ -1,0 +1,37 @@
+# Ignorar carpeta de Visual Studio
+.vs/
+
+# Ignorar binarios y objetos compilados
+[Bb]in/
+[Oo]bj/
+
+# Ignorar paquetes NuGet
+*.nupkg
+packages/
+
+# Ignorar archivos de configuración de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar archivos de configuración locales
+*.config
+*.local
+
+# Ignorar archivos de caché
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# Ignorar archivos de publicación
+publish/
+
+# Ignorar archivos de test y cobertura
+TestResults/
+*.coverage
+*.coveragexml
+
+# Ignorar archivos generados por VS Code
+.vscode/
