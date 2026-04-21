@@ -1,0 +1,16 @@
+
+    .contenedor {
+      display: flex;
+      flex-direction: column; 
+      align-items: flex-start; /* alineados a la izquierda */
+      margin-left: 100px; /* los corre un poco hacia el centro */
+    }
+
+    .foto {               
+      width: 300px;
+      margin-bottom: 20px; /* espacio entre imagen y video */
+    }
+
+    .video {
+      width: 300px;
+    }

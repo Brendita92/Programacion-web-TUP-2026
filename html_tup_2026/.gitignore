@@ -1,0 +1,17 @@
+# Ignorar configuraciones de VSCode
+.vscode/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos multimedia grandes (opcional)
+*.mp4
+*.avi
+*.mov
+*.jpeg
+*.gif
