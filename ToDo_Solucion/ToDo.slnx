@@ -1,5 +1,12 @@
 <Solution>
-  <Project Path="ToDo.Apps.ConsoleApp/ToDo.Apps.ConsoleApp.csproj" Id="ebe38aa5-be9f-4bc2-8d85-50a0c657733d" />
-  <Project Path="ToDo.Apps.WebApiApp/ToDo.Apps.WebApiApp.csproj" Id="3e8dce33-e3fd-4f59-9591-0e3090ff34f7" />
-  <Project Path="ToDo.Entidades/ToDo.Entidades.csproj" />
+  <Folder Name="/Apps/">
+    <Project Path="ToDo.Apps.ConsoleApp/ToDo.Apps.ConsoleApp.csproj" Id="ebe38aa5-be9f-4bc2-8d85-50a0c657733d" />
+    <Project Path="ToDo.Apps.WebApiApp/ToDo.Apps.WebApiApp.csproj" Id="3e8dce33-e3fd-4f59-9591-0e3090ff34f7" />
+  </Folder>
+  <Folder Name="/core/">
+    <Project Path="ToDo.Entidades/ToDo.Entidades.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="ToDo.Entidades.Tests/ToDo.Entidades.Tests.csproj" Id="9a4b242a-ce07-4a0e-9858-18e239244f39" />
+  </Folder>
 </Solution>
